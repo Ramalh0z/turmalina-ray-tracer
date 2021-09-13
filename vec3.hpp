@@ -1,4 +1,4 @@
-//#pragma once
+#pragma once
 
 #include <cmath>
 #include <iostream>
@@ -9,6 +9,8 @@ typedef struct vec3
     float x {0.0}; 
     float y {0.0};
     float z {0.0};
+
+    vec3() = default;
     
     vec3(float m_x, float m_y, float m_z)
     {
@@ -131,7 +133,7 @@ inline vec3 operator/(vec3 v, float t) {
 // Utils
 inline float dot(const vec3& u, const vec3& v)
 {
-    return 
+    return
         u.x * v.x + 
         u.y * v.y + 
         u.z * v.z;
