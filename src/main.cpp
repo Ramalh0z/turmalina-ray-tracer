@@ -1,8 +1,8 @@
-#include "common_rtweekend.hpp"
+#include "turmalina.hpp"
 
-#include "color.hpp"
-#include "sphere.hpp"
-#include "hittable_list.hpp"
+#include "math/color.hpp"
+#include "objects/sphere.hpp"
+#include "objects/hittable_list.hpp"
 
 #include <iostream>
 
