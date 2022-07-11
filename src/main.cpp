@@ -21,7 +21,7 @@ color ray_color(const ray& r, hittable& world)
 int main(){
 
     // image
-    constexpr auto aspect_ratio = 16.0 / 9.0;
+    constexpr double aspect_ratio = 16.0 / 9.0;
     constexpr int image_w = 400;
     constexpr int image_h = static_cast<int>(image_w / aspect_ratio);
 

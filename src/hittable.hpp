@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ray.hpp"
+#include "math/ray.hpp"
 
 struct hit_record
 {
